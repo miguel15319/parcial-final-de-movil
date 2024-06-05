@@ -19,9 +19,6 @@ class Cambio_Pant extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Mi App de Conversión de Moneda'),
-      ),
       body: Center(
         child: Pant_Magn(),
       ),
